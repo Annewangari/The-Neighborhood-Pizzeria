@@ -111,10 +111,11 @@
 #about {
   background: #000;
   margin-top: 30px;
-  color: #dbc1ac;
+  color: red;
 }
 .text {
   font-size: 28px;
+  color: #dbc1ac;
 }
 .about-images {
   position: relative;
@@ -204,3 +205,103 @@
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transform: scaleX(1);
 }
+/* .card-title {
+  text-align: center;
+  color: red;
+  font-weight: 700;
+  display: flex;
+}
+.controls-top h2 {
+  color: red;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+.col-md-4 {
+  border-radius: 10%;
+  padding: 10px;
+}
+#menu {
+  padding-top: 30px;
+  text-align: center;
+}
+.order h2 {
+  text-align: center;
+}
+.order{
+  background-attachment: fixed;
+  background-image: url("../images/slider2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.choise{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver{
+  display: none;
+}
+.delivery{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th{
+  font-size: 20px;
+  color: white;
+}
+.choise h2{
+  color: #dbc1ac;
+  text-align: left;
+}
+#your-orders{
+  color: #dbc1ac;
+  font-size: 30px;
+}
+
+#contact h2{
+  text-align: center;
+}
+#contact{
+  color: black;
+}
+#contactdetails h2{
+  text-align: left;
+}
+.footer{
+  padding-top: 5%;
+}
+#addedprice{
+  display: none;
+}
+#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards{
+  text-align: center;
+  color: whitesmoke;
+}
+#information{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #dbc1ac;
+} */
