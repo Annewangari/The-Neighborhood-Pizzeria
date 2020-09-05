@@ -126,26 +126,31 @@
   opacity: 0.9;
 }
 .img-6 {
-  left: 0%;
+  left: 12%;
   top: 0%;
+  margin-top: 10%;
 }
 .img-2 {
-  left: 20%;
+  left: 32%;
   top: 15%;
   z-index: 10;
+  margin-top: 10%;
 }
 .img-3 {
-  left: 40%;
+  left: 52%;
   top: 30%;
   z-index: 20;
+  margin-top: 10%;
 }
 .img-4 {
-  left: 40%;
+  left: 52%;
   top: 0%;
+  margin-top: 10%;
 }
 .img-5 {
-  left: 0%;
+  left: 12%;
   top: 30%;
+  margin-top: 10%;
 }
 .about-img:hover {
   outline: 10px solid #dbc1ac;
