@@ -38,7 +38,7 @@ This is a pizza delivery web-app that allows a user to order his/her choice of p
 ![alt my portfolio](images/screenshot.png)
 
 # Project Figma Link
-
+https://www.figma.com/file/5LNGp01RS4RISn0GFxIzZJ/Untitled?node-id=0%3A1
 
 # Technology Used
 HTML5
@@ -56,7 +56,7 @@ Incase of any question, feedback or contribution, kindly reach out to me via.
 
 Email
 
-annekare3@gamail.com
+annekare3@gmail.com
  
  Phone Number
 
