@@ -187,9 +187,10 @@ $(document).ready(function () {
         $("input#phone").val() &&
         $("input#location").val() != ""
       ) {
-        $("#finallmessage").append("Hey!, " +
-          person +
-            ", We have recieved your order we're going to delivere it to you at " +
+        $("#finallmessage").append(
+          "Hey!, " +
+            person +
+            ", We have recieved your order we're going to delivere it to you in two hours time at " +
             location +
             ". Prepare sh. " +
             deliceryamount
@@ -204,5 +205,12 @@ $(document).ready(function () {
     });
     event.preventDefault();
   });
+  $("#contact-form").submit(function(e){
+    e.preventDefault();
+    var firstName=$("#first-name").val();
+    var lastName=$("#name-last").val();
+    var email=$("#your-email").val();
+    alert(firstName+" "+lastName+", We have recieved your message we will get back at you via this email "+email)
+  })
 });
 

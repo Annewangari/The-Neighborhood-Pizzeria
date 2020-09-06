@@ -407,80 +407,80 @@ textarea::placeholder {
     width: 60%;
   }
 }
-.chef h2{
+.chef h2 {
   color: red;
   font-weight: bold;
 }
-.chef .col-sm-3{
+.chef .col-sm-3 {
   padding: 0;
 }
-.chef .card >a{
+.chef .card > a {
   display: block;
 }
-.chef .card img{
+.chef .card img {
   width: 100%;
 }
-.chef .card h4{
+.chef .card h4 {
   color: #fff;
   text-transform: uppercase;
 }
-.chef .card p{
+.chef .card p {
   font-size: 11px;
   color: #fff;
-  opacity: .75;
+  opacity: 0.75;
   margin: 0;
   padding: 0 35px;
 }
-.chef .card .social-nav{
+.chef .card .social-nav {
   margin-bottom: 45px;
 }
-.chef .card .social-nav a{
+.chef .card .social-nav a {
   color: #fff;
   font-size: 16px;
   margin: 0 4px;
 }
-.chef .card .social-nav a:hover{
-  opacity: .75;
+.chef .card .social-nav a:hover {
+  opacity: 0.75;
 }
-.chef .card:hover .chef-over{
+.chef .card:hover .chef-over {
   opacity: 1;
   visibility: visible;
 }
-.chef .card:hover .card-title-wrap{
+.chef .card:hover .card-title-wrap {
   background-color: #fecea8;
 }
 .chef .card:hover .card-title-wrap .card-title,
-.chef .card:hover .card-title-wrap .card-text{
+.chef .card:hover .card-title-wrap .card-text {
   color: #fff;
 }
-.chef .chef-over{
+.chef .chef-over {
   padding-top: 45px;
   position: absolute;
   width: 100%;
-height: 100%;
-background:#99b898;
-top: 0;
-left: 0;
-text-align: center;
-opacity: 0;
-visibility: hidden;
-transition: all 0.3s ease;
+  height: 100%;
+  background: #99b898;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
 }
-.chef .card-title-wrap{
+.chef .card-title-wrap {
   padding: 15px 25px;
   position: relative;
   z-index: 9;
   background: #fff;
 }
 .chef .card-title-wrap .card-title,
-.chef .card-title-wrap .card-text{
+.chef .card-title-wrap .card-text {
   display: block;
   margin: 0;
 }
-.chef .card-title-wrap .card-text{
+.chef .card-title-wrap .card-text {
   font-size: 18px;
   color: #000;
 }
-#chef{
-  background-color: #ff847c;;
+#chef {
+  background-color: #ff847c;
 }
