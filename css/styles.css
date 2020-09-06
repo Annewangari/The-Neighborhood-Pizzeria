@@ -203,23 +203,6 @@
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transform: scaleX(1);
 }
-.card-title {
-  text-align: center;
-  color: red;
-  font-weight: 700;
-  display: flex;
-}
-.controls-top h2 {
-  color: red;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  font-weight: bolder;
-  font-size: 60px;
-}
-.col-md-4 {
-  border-radius: 10%;
-  padding: 10px;
-}
 #menu {
   padding-top: 30px;
   text-align: center;
@@ -227,6 +210,7 @@
 #menu h2 {
   font-size: 2em;
   font-weight: bold;
+  color: red;
 }
 .order h2 {
   text-align: center;

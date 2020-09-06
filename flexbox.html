@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/flexbox.css" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="css/wickedcss.min.css">
-  <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
 </head>
 
 <body>
@@ -21,11 +21,24 @@
             <div class="col-md-12 navbar">
                 <a href="flexbox.html" class="logo navbar-brand text-white offset-md-2">Pizzeria</a>
                 <ul class="nav">
-                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="#flexbox" class="nav-link">Flexbox</a> </li>
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="index.html#menu" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Flexbox
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="flexbox.html#">Intro</a>
+                            <a class="dropdown-item" href="#about">About Me</a>
+                            <a class="dropdown-item" href="#what-i-do">What i do</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#contact">Contact</a>
+                        </div>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -37,15 +50,25 @@
         <h1>Flexbox Practice</h1>
         <h2>Portfolio</h2>
     </section>
-    
+    <section class="about-area" id="about">
+        <h3 class="section-title">About Me</h3>
+        <ul class="about-content">
+            <li class="about-left"></li>
+            <li class="about-right"></li>
+            <h2>About Myself</h2>
+            <p>Hi! My name is Anne Wangari. I am Web Developer,and i'm very passionate and
+                dedicated to my work.From a young age. I have been a tech enthusiast. I am
+                extremly motivated to constantly develop my software development skills and grow
+                professionally. I am someone who's persistant,a quick learner and loves problem
+                solving by using simple and scalable solutions. I believe everything on this
+                planet is Art!</p>
+        </ul>
+    </section>
 
-            <script type="text/javascript"
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-            <script src="js/mdb.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <script src="js/script.js"></script>
-    </body>
-    
-    </html>     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

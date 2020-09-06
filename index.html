@@ -26,7 +26,27 @@
                     <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
                     <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="#flexbox" class="nav-link">Flexbox</a> </li>
+                    <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          Flexbox
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="flexbox.html#">Intro</a>
+                          <a class="dropdown-item" href="flexbox.html#about">About Me</a>
+                          <a class="dropdown-item" href="#what-i-do">What i do</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#contact">Contact</a>
+                        </div>
+                      </li>
+                      
                 </ul>
             </div>
 
@@ -92,70 +112,77 @@
             </div>
         </div>
     </section>
-
-    <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="menu">
-        <div class="controls-top ">
-            <h2>Our Menu</h2>
-        </div>
-        <div class="carousel-inner" role="listbox">
+    <div class="container" id="menu"> 
+        <h2>Our Menu</h2>
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
             <div class="carousel-item active">
+              <div class="row">
                 <div class="col-md-4">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/pizza1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Raspberry Dessert Pizza</h5>
-                        </div>
+                  <div class="card" style="width: 18rem">
+                    <img src="images/pizza1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Raspberry Dessert Pizza</h5>
                     </div>
+                  </div>
                 </div>
-
                 <div class="col-md-4">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/pizza2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Buffalo Chicken Pizza</h5>
-                        </div>
+                  <div class="card" style="width: 18rem">
+                    <img src="images/pizza2.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Buffalo Chicken Pizza</h5>
                     </div>
+                  </div>
                 </div>
-
                 <div class="col-md-4">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/pizza3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Chicken Tikka</h5>
-                        </div>
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="images/pizza3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Tikka</h5>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
             <div class="carousel-item">
+              <div class="row">
                 <div class="col-md-4">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/pizza4.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunchoke Pizza</h5>
-                        </div>
+                  <div class="card" style="width: 18rem">
+                    <img src="images/pizza4.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Sunchoke Pizza</h5>
                     </div>
+                  </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/pizza5.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Periperi Pizza</h5>
-                        </div>
+                  <div class="card" style="width: 18rem">
+                    <img src="images/pizza5.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Periperi Pizza</h5>
                     </div>
+                  </div>
                 </div>
-
                 <div class="col-md-4">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/pizza6.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title"> Buffalo Chicken Sticks</h5>
-                        </div>
+                  <div class="card" style="width: 18rem">
+                    <img src="images/pizza6.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Alfredo Pizza</h5>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
+      </div>
     <div class="container-fluid order" id="make-order">
         <div class="order-overlay">
             <div class="controls-top text-center" id="Order-now">
@@ -295,9 +322,7 @@
         </div>
     </section>
 
-    <script type="text/javascript"
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="js/mdb.min.js"></script>
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
