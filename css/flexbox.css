@@ -124,7 +124,7 @@ ul.about-content {
   padding-left: 0px;
 }
 .about-area {
-  background-color: greenyellow;
+  background-color: #f65058ff;
 }
 .section-title {
   margin-bottom: 5%;
@@ -139,8 +139,8 @@ ul.about-content {
     padding: 8px;
   }
 }
-#contact {
-  background: #fff;
+#contacts {
+  background: #fbde44ff;
 }
 ul.contact-content {
   width: 100%;
@@ -178,7 +178,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #fff;
-  background-color: #000;
+  color: #ddd;
+  background-color: #283344ff;
   padding: 20px 0;
 }
